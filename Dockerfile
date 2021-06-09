@@ -9,7 +9,8 @@ RUN apt-get update
 
 # RUN L='us' && sed -i 's/XKBLAYOUT=\"\w*"/XKBLAYOUT=\"'$L'\"/g' /etc/default/keyboard
 
-RUN apt-get install -y libav-tools \
+# RUN apt-get install -y libav-tools \
+RUN apt-get install -y \
     python-numpy \
     python-scipy \
     python-setuptools \
